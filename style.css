@@ -101,8 +101,8 @@ body {
 }
 
 .home-p:hover .imgMasked {
-  -webkit-clip-path: circle(400px at center);
-          clip-path: circle(400px at center);
+  -webkit-clip-path: circle(100% at center);
+          clip-path: circle(100% at center);
 }
 .home-p:hover .home-p-hail {
   width: 200px;
