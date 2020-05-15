@@ -149,10 +149,10 @@ a:hover{
                0 0 75px #325034;
   }
 }
-img:hover {
+/* img:hover {
   animation: shake 0.5s;
   animation-iteration-count: infinite;
-}
+} */
 @keyframes shake {
   0% { transform: translate(1px, 1px) rotate(0deg); }
   10% { transform: translate(-1px, -2px) rotate(-1deg); }
@@ -266,6 +266,18 @@ h2.seven {
 
 #rotate-neuron h2 {
   transform: rotate(90deg);
+}
+
+#onhover {
+  display: none;
+}
+#surround:hover img[id="initial"] {
+  display: none;
+}
+#surround:hover img[id="onhover"] {
+  display: inline-block;
+  animation: shake 0.5s;
+  animation-iteration-count: infinite;
 }
 
 /* DEMO-SPECIFIC STYLES */
